@@ -25,7 +25,7 @@ body{
 .btn:hover{border-color: rgba(124,212,255,.35)}
 
 .bar{display:flex;gap:12px;align-items:center;margin:14px 0 18px}
-input{
+#q{
   flex:1;
   padding:12px 14px;
   border-radius:14px;
@@ -34,7 +34,9 @@ input{
   color:var(--fg);
   outline:none;
 }
-input:focus{border-color: rgba(124,212,255,.45); box-shadow: 0 0 0 3px rgba(124,212,255,.14)}
+#q::placeholder{color: rgba(238,242,255,.45)}
+#q:focus{border-color: rgba(124,212,255,.45); box-shadow: 0 0 0 3px rgba(124,212,255,.14)}
+#count{white-space:nowrap; padding:10px 12px; border-radius:999px; border:1px solid rgba(255,255,255,.14); background:rgba(0,0,0,.18)}
 
 .list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
 @media (max-width:860px){.list{grid-template-columns:1fr}}
@@ -47,7 +49,7 @@ input:focus{border-color: rgba(124,212,255,.45); box-shadow: 0 0 0 3px rgba(124,
 .title:hover{text-decoration:underline}
 
 .meta{color:var(--muted);font-size:12px}
-.desc{margin-top:6px}
+.desc{margin-top:6px; color: rgba(238,242,255,.72); font-size: 13px; line-height: 1.35}
 
 .links{margin-top:10px;font-size:12px;color:var(--muted)}
 .links a{color:var(--fg);text-decoration:none;border-bottom:1px dotted rgba(255,255,255,.35)}

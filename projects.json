@@ -1,226 +1,258 @@
 [
   {
-    "title": "focusflip",
+    "title": "Focusflip",
+    "slug": "clawd-build-20260202-2322Z-focusflip",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260202-2322Z-focusflip",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260202-2322Z-focusflip/",
-    "desc": "",
+    "desc": "One-tap focus/break timer with haptics, streaks, and shareable recaps.",
     "updatedAt": "2026-02-03T05:54:30Z"
   },
   {
-    "title": "subsentry",
+    "title": "Subsentry",
+    "slug": "clawd-build-20260202-1904Z-subsentry",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260202-1904Z-subsentry",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260202-1904Z-subsentry/",
-    "desc": "",
+    "desc": "Track subscriptions & renewals, spot leaks, reminders + shareable savings.",
     "updatedAt": "2026-02-03T05:54:30Z"
   },
   {
-    "title": "splitsnap",
+    "title": "Splitsnap",
+    "slug": "clawd-build-20260203-0335Z-splitsnap",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260203-0335Z-splitsnap",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260203-0335Z-splitsnap/",
-    "desc": "",
+    "desc": "Scan/parse a receipt, assign items, split the bill fairly, share a link.",
     "updatedAt": "2026-02-03T05:54:29Z"
   },
   {
-    "title": "choresprint",
+    "title": "Choresprint",
+    "slug": "clawd-build-20260202-0251Z-choresprint",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260202-0251Z-choresprint",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260202-0251Z-choresprint/",
-    "desc": "",
+    "desc": "10-minute chore sprint game with points, timer, and shareable sprints.",
     "updatedAt": "2026-02-02T03:01:06Z"
   },
   {
-    "title": "tabtamer",
+    "title": "Tabtamer",
+    "slug": "clawd-build-20260201-2238Z-tabtamer",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260201-2238Z-tabtamer",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260201-2238Z-tabtamer/",
-    "desc": "",
+    "desc": "Save \u201ctab packs\u201d from the share sheet, tag/search, reopen later (PWA).",
     "updatedAt": "2026-02-01T22:49:46Z"
   },
   {
-    "title": "pocketreceipts",
+    "title": "Pocketreceipts",
+    "slug": "clawd-build-20260201-1825Z-pocketreceipts",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260201-1825Z-pocketreceipts",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260201-1825Z-pocketreceipts/",
-    "desc": "",
+    "desc": "Receipt vault: scan + OCR, deadlines, return reminders, export/import.",
     "updatedAt": "2026-02-01T18:35:59Z"
   },
   {
-    "title": "moodminute",
+    "title": "Moodminute",
+    "slug": "clawd-build-20260201-1415Z-moodminute",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260201-1415Z-moodminute",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260201-1415Z-moodminute/",
-    "desc": "",
+    "desc": "10-second mood check-ins with streaks, weekly insights, and share links.",
     "updatedAt": "2026-02-01T17:40:49Z"
   },
   {
-    "title": "languagelens",
+    "title": "Languagelens",
+    "slug": "clawd-build-20260201-1004Z-languagelens",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260201-1004Z-languagelens",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260201-1004Z-languagelens/",
-    "desc": "",
+    "desc": "Camera-first micro language drills: OCR words \u2192 quick practice + challenges.",
     "updatedAt": "2026-02-01T10:14:24Z"
   },
   {
-    "title": "budgetpulse",
+    "title": "Budgetpulse",
+    "slug": "clawd-build-20260201-0544Z-budgetpulse",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260201-0544Z-budgetpulse",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260201-0544Z-budgetpulse/",
-    "desc": "",
+    "desc": "A small web app built and deployed on GitHub Pages.",
     "updatedAt": "2026-02-01T05:52:34Z"
   },
   {
-    "title": "meetmerge",
+    "title": "Meetmerge",
+    "slug": "clawd-build-20260131-2241Z-meetmerge",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260131-2241Z-meetmerge",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260131-2241Z-meetmerge/",
-    "desc": "",
+    "desc": "Group scheduling poll: vote on time slots, lock a winner, export to calendar.",
     "updatedAt": "2026-01-31T22:54:49Z"
   },
   {
-    "title": "partyscore-karaoke",
+    "title": "Party score karaoke",
+    "slug": "clawd-build-20260131-2128Z-partyscore-karaoke",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260131-2128Z-partyscore-karaoke",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260131-2128Z-partyscore-karaoke/",
-    "desc": "",
+    "desc": "Karaoke party game: sing into mic, get a score, challenge friends.",
     "updatedAt": "2026-01-31T21:40:36Z"
   },
   {
-    "title": "partyscore",
+    "title": "Party score",
+    "slug": "clawd-build-20260131-1832Z-partyscore",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260131-1832Z-partyscore",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260131-1832Z-partyscore/",
-    "desc": "",
+    "desc": "Karaoke party game: sing into mic, get a score, challenge friends.",
     "updatedAt": "2026-01-31T18:41:31Z"
   },
   {
-    "title": "time-tiles-20260131-1535",
+    "title": "Time Tiles 20260131 1535",
+    "slug": "time-tiles-20260131-1535",
     "repoUrl": "https://github.com/manulus1-ai/time-tiles-20260131-1535",
     "liveUrl": "https://manulus1-ai.github.io/time-tiles-20260131-1535/",
-    "desc": "",
+    "desc": "Plan the next 2 hours as draggable tiles + focus mode.",
     "updatedAt": "2026-01-31T15:40:57Z"
   },
   {
-    "title": "noise-compass-20260131-113439",
+    "title": "Noise Compass 20260131 113439",
+    "slug": "noise-compass-20260131-113439",
     "repoUrl": "https://github.com/manulus1-ai/noise-compass-20260131-113439",
     "liveUrl": "https://manulus1-ai.github.io/noise-compass-20260131-113439/",
-    "desc": "",
+    "desc": "Mic-powered relative noise meter with history and shareable sessions.",
     "updatedAt": "2026-01-31T11:34:50Z"
   },
   {
-    "title": "tea-time-composer-20260131-072517",
+    "title": "Tea Time Composer 20260131 072517",
+    "slug": "tea-time-composer-20260131-072517",
     "repoUrl": "https://github.com/manulus1-ai/tea-time-composer-20260131-072517",
     "liveUrl": "https://manulus1-ai.github.io/tea-time-composer-20260131-072517/",
-    "desc": "",
+    "desc": "Build multi-stage brew routines and run them like a timeline.",
     "updatedAt": "2026-01-31T07:29:19Z"
   },
   {
-    "title": "hushboard-focus-mixer-20260131-0318",
+    "title": "Hushboard Focus Mixer 20260131 0318",
+    "slug": "hushboard-focus-mixer-20260131-0318",
     "repoUrl": "https://github.com/manulus1-ai/hushboard-focus-mixer-20260131-0318",
     "liveUrl": "https://manulus1-ai.github.io/hushboard-focus-mixer-20260131-0318/",
-    "desc": "",
+    "desc": "Offline focus sound mixer with saved scenes and a session timer.",
     "updatedAt": "2026-01-31T03:24:18Z"
   },
   {
-    "title": "wqst",
+    "title": "Wqst",
+    "slug": "clawd-build-20260130-2320Z-wqst",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260130-2320Z-wqst",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260130-2320Z-wqst/",
-    "desc": "",
+    "desc": "Nearby Wikipedia scavenger hunt using location + compass.",
     "updatedAt": "2026-01-30T23:29:49Z"
   },
   {
-    "title": "focus-cafe",
+    "title": "Focus Cafe",
+    "slug": "clawd-build-20260130-2250Z-focus-cafe",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260130-2250Z-focus-cafe",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260130-2250Z-focus-cafe/",
-    "desc": "",
+    "desc": "A small web app built and deployed on GitHub Pages.",
     "updatedAt": "2026-01-30T23:16:21Z"
   },
   {
-    "title": "crdx",
+    "title": "Crdx",
+    "slug": "clawd-build-20260130-2012Z-crdx",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260130-2012Z-crdx",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260130-2012Z-crdx/",
-    "desc": "",
+    "desc": "A small web app built and deployed on GitHub Pages.",
     "updatedAt": "2026-01-30T20:20:24Z"
   },
   {
-    "title": "shakeblast",
+    "title": "Shakeblast",
+    "slug": "clawd-build-20260130-1651Z-shakeblast",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260130-1651Z-shakeblast",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260130-1651Z-shakeblast/",
-    "desc": "",
+    "desc": "Phone shake challenge: countdown \u2192 shake hard \u2192 score + confetti.",
     "updatedAt": "2026-01-30T16:58:05Z"
   },
   {
-    "title": "perfscope",
+    "title": "Perfscope",
+    "slug": "clawd-build-20260130-1620Z-perfscope",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260130-1620Z-perfscope",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260130-1620Z-perfscope/",
-    "desc": "",
+    "desc": "Performance timeline explorer: waterfall + outliers + shareable sessions.",
     "updatedAt": "2026-01-30T16:42:32Z"
   },
   {
-    "title": "sponsor-roi-kit",
+    "title": "Sponsor Roi Kit",
+    "slug": "sponsor-roi-kit",
     "repoUrl": "https://github.com/manulus1-ai/sponsor-roi-kit",
     "liveUrl": "https://manulus1-ai.github.io/sponsor-roi-kit/",
-    "desc": "",
+    "desc": "A small web app built and deployed on GitHub Pages.",
     "updatedAt": "2026-01-30T15:10:59Z"
   },
   {
-    "title": "inkm",
+    "title": "Inkm",
+    "slug": "clawd-build-20260130-1220Z-inkm",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260130-1220Z-inkm",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260130-1220Z-inkm/",
-    "desc": "",
+    "desc": "A small web app built and deployed on GitHub Pages.",
     "updatedAt": "2026-01-30T12:24:29Z"
   },
   {
-    "title": "ttly",
+    "title": "Ttly",
+    "slug": "clawd-build-20260130-1110Z-ttly",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260130-1110Z-ttly",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260130-1110Z-ttly/",
-    "desc": "",
+    "desc": "Scan/parse a receipt, assign items, split the bill fairly, share a link.",
     "updatedAt": "2026-01-30T11:18:00Z"
   },
   {
-    "title": "swch",
+    "title": "Swch",
+    "slug": "clawd-build-20260130-0820Z-swch",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260130-0820Z-swch",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260130-0820Z-swch/",
-    "desc": "",
+    "desc": "A small web app built and deployed on GitHub Pages.",
     "updatedAt": "2026-01-30T08:24:10Z"
   },
   {
-    "title": "focus",
+    "title": "Focus",
+    "slug": "clawd-build-20260130-0804Z-focus",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260130-0804Z-focus",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260130-0804Z-focus/",
-    "desc": "",
+    "desc": "Offline habit tracker with streaks/heatmaps + export/import.",
     "updatedAt": "2026-01-30T08:09:49Z"
   },
   {
-    "title": "morse-mood-beacon",
+    "title": "Morse Mood Beacon",
+    "slug": "clawd-build-20260130-0639Z-morse-mood-beacon",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260130-0639Z-morse-mood-beacon",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260130-0639Z-morse-mood-beacon/",
-    "desc": "",
+    "desc": "A small web app built and deployed on GitHub Pages.",
     "updatedAt": "2026-01-30T06:39:58Z"
   },
   {
-    "title": "stretch-snacks",
+    "title": "Stretch Snacks",
+    "slug": "clawd-build-20260130-0617Z-stretch-snacks",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260130-0617Z-stretch-snacks",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260130-0617Z-stretch-snacks/",
     "desc": "Stretch Snacks \u2014 60-second break builder (static GitHub Pages)",
     "updatedAt": "2026-01-30T06:21:02Z"
   },
   {
-    "title": "cooper-flagg-hlix",
+    "title": "Cooper Flagg Hlix",
+    "slug": "clawd-build-20260130-0552Z-cooper-flagg-hlix",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260130-0552Z-cooper-flagg-hlix",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260130-0552Z-cooper-flagg-hlix/",
-    "desc": "",
+    "desc": "A small web app built and deployed on GitHub Pages.",
     "updatedAt": "2026-01-30T05:54:59Z"
   },
   {
-    "title": "tomodachi-life",
+    "title": "Tomodachi Life",
+    "slug": "clawd-build-20260130-0146Z-tomodachi-life",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260130-0146Z-tomodachi-life",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260130-0146Z-tomodachi-life/",
-    "desc": "",
+    "desc": "A small web app built and deployed on GitHub Pages.",
     "updatedAt": "2026-01-30T01:49:52Z"
   },
   {
-    "title": "spacex-capsule",
+    "title": "Spacex Capsule",
+    "slug": "clawd-build-20260129-2149Z-spacex-capsule",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260129-2149Z-spacex-capsule",
     "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260129-2149Z-spacex-capsule/",
-    "desc": "",
+    "desc": "A small web app built and deployed on GitHub Pages.",
     "updatedAt": "2026-01-29T21:49:27Z"
   },
   {
-    "title": "car-race-3d",
+    "title": "Car Race 3D",
+    "slug": "car-race-3d",
     "repoUrl": "https://github.com/manulus1-ai/car-race-3d",
     "liveUrl": "https://manulus1-ai.github.io/car-race-3d/",
-    "desc": "",
+    "desc": "Three.js arcade racer playable on desktop and mobile.",
     "updatedAt": "2026-01-29T21:21:44Z"
   }
 ]

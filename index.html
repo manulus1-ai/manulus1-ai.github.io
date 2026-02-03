@@ -79,7 +79,7 @@
                 <a class="title" href="${live}" target="_blank" rel="noreferrer">${title}</a>
                 <span class="meta">${date}</span>
               </div>
-              ${desc ? `<div class="meta desc">${desc}</div>` : ''}
+              <div class="desc">${desc || ''}</div>
               <div class="links">
                 <a href="${repo}" target="_blank" rel="noreferrer">repo</a>
                 <span class="dot">·</span>
