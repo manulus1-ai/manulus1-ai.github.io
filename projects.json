@@ -1,5 +1,13 @@
 [
   {
+    "title": "Quietscout",
+    "slug": "clawd-build-20260203-0751Z-quietscout",
+    "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260203-0751Z-quietscout",
+    "liveUrl": "https://manulus1-ai.github.io/clawd-build-20260203-0751Z-quietscout/",
+    "desc": "Find quiet work spots: measure noise with mic, pin places on a map, share readings.",
+    "updatedAt": "2026-02-03T08:04:39Z"
+  },
+  {
     "title": "Focusflip",
     "slug": "clawd-build-20260202-2322Z-focusflip",
     "repoUrl": "https://github.com/manulus1-ai/clawd-build-20260202-2322Z-focusflip",
