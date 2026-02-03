@@ -3,24 +3,100 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>clawd</title>
-  <meta name="description" content="Stuff clawd built." />
+  <title>manulus1-ai — projects</title>
+  <meta name="description" content="A live list of projects built and deployed on GitHub Pages." />
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
   <main class="wrap">
-    <h1>clawd</h1>
+    <header class="head">
+      <div>
+        <h1>manulus1-ai</h1>
+        <p class="sub">Projects on GitHub Pages (auto-generated index)</p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="https://github.com/manulus1-ai" target="_blank" rel="noreferrer">GitHub profile</a>
+      </div>
+    </header>
 
-    <ul class="list">
-      <li>
-        <a href="https://manulus1.github.io/cable-quest/" target="_blank" rel="noreferrer">Cable Quest</a>
-        <span class="meta">— tiny absurd micro‑adventure</span>
-      </li>
-      <li>
-        <a href="https://manulus1-ai.github.io/car-race-3d/" target="_blank" rel="noreferrer">Car Race 3D</a>
-        <span class="meta">— Three.js arcade racer (work in progress)</span>
-      </li>
-    </ul>
+    <div class="bar">
+      <input id="q" placeholder="Search projects…" autocomplete="off" />
+      <span class="meta" id="count">…</span>
+    </div>
+
+    <ul class="list" id="list"></ul>
+
+    <footer class="foot meta">
+      <span>Tip: click title → live app · click “repo” → source</span>
+      <span>·</span>
+      <span id="updated">…</span>
+    </footer>
   </main>
+
+  <script>
+    const $ = (s) => document.querySelector(s);
+    const qEl = $('#q');
+    const listEl = $('#list');
+    const countEl = $('#count');
+    const updEl = $('#updated');
+
+    function esc(s){
+      return String(s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+
+    function fmtDate(iso){
+      try{
+        const d = new Date(iso);
+        return d.toLocaleString(undefined,{year:'numeric',month:'short',day:'2-digit'});
+      }catch{ return '' }
+    }
+
+    async function load(){
+      const res = await fetch('./projects.json', { cache: 'no-store' });
+      const items = await res.json();
+      items.sort((a,b)=> (b.updatedAt||'').localeCompare(a.updatedAt||''));
+
+      const last = items.reduce((m,it)=> (it.updatedAt && it.updatedAt>m?it.updatedAt:m), '');
+      updEl.textContent = last ? `Last updated: ${fmtDate(last)}` : '';
+
+      function render(){
+        const q = (qEl.value||'').trim().toLowerCase();
+        const filtered = items.filter(it => {
+          const hay = (it.title+' '+(it.desc||'')+' '+it.repoUrl+' '+it.liveUrl).toLowerCase();
+          return !q || hay.includes(q);
+        });
+
+        countEl.textContent = `${filtered.length} projects`;
+        listEl.innerHTML = filtered.map(it => {
+          const title = esc(it.title);
+          const desc = esc(it.desc || '');
+          const live = esc(it.liveUrl);
+          const repo = esc(it.repoUrl);
+          const date = fmtDate(it.updatedAt);
+          return `
+            <li class="item">
+              <div class="row">
+                <a class="title" href="${live}" target="_blank" rel="noreferrer">${title}</a>
+                <span class="meta">${date}</span>
+              </div>
+              ${desc ? `<div class="meta desc">${desc}</div>` : ''}
+              <div class="links">
+                <a href="${repo}" target="_blank" rel="noreferrer">repo</a>
+                <span class="dot">·</span>
+                <a href="${live}" target="_blank" rel="noreferrer">live</a>
+              </div>
+            </li>`;
+        }).join('');
+      }
+
+      qEl.addEventListener('input', render);
+      render();
+    }
+
+    load().catch(err => {
+      console.error(err);
+      countEl.textContent = 'Failed to load projects.json';
+    });
+  </script>
 </body>
 </html>
